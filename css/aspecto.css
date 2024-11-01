@@ -1,0 +1,291 @@
+* {
+    background-color: #3A5A40;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+  font-family: Arial, serif;
+  letter-spacing: 2px;
+  color: #ecf39e;
+}
+
+
+
+h2 {
+    font-size: 1rem;
+    color: #ecf39e;
+}
+  
+p {
+      margin-bottom: 1.5em;
+    color: #898989;
+  }
+b,
+strong {
+	font-weight: bold;
+}
+img {
+	display: block;
+	border: 0;
+	width: 98%;
+	height: auto;
+    border-radius: 10px 10px 10px 10px;
+      
+}
+.barranav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3a5a40;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .barranav li {
+    float: left;
+  }
+  .barranav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .barranav li a:hover {
+    background-color: #a7c957;
+  }
+  
+  
+.encabezado {
+    background-image: url("/repositorio/android-chrome-512x512.png");
+    min-height: 80px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: 12px;
+}
+  
+.encabezado  h1{
+    margin: 5rem;
+    text-align:center;
+    font-family: arial;
+    justify-content: space-between;
+    font-size: 56px;
+}
+
+  .productos {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    gap: 0.1rem;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: arial;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.producto {
+    border: 1px solid rgb(67, 67, 83);
+    border-radius: .5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.prod_detalle {
+	background: white;
+	margin-bottom: 2em;	
+    flex: 0 1 ;
+    
+    
+}    
+.prod_detalle ul{
+list-style-type: none;
+
+}
+
+.prod_detalle a {
+    color: #a3b18a;
+    margin-bottom: 2em;
+}
+.prod_detalle a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+.listaproducto {
+	padding: 1.4em;
+    color: #588157;
+    
+    
+}
+
+.listaproducto h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+    font-size: 80%;
+}
+.listaproducto p,li {
+    --margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #dad7cd;
+   
+}
+.listaproducto ul {
+    list-style-type: none;
+    
+  }
+ 
+  .barra {
+    width: 50%;
+    /* text-align: right; */
+    padding-top: 10px;
+    margin-left: 50px;
+    color: white;
+}
+.moderado {
+    width: 10%;
+    background-color: #89c2d9;
+}
+.producto-titulo  {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: white ;
+    
+    text-align: center;
+}
+.precio {
+    font-size: 22px;
+    text-align: center;
+    padding: 1.2rem;
+    color:#dad7cd;
+    
+    
+}
+#Contacto {
+    padding-top: 2rem ;
+    padding-bottom: 2rem ;
+    padding-left: 1rem;
+    
+}
+.contacto {
+    margin-top: 30px;
+    height: 500px;
+}
+input[type=text], input[type=email],select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+    color: white;
+  }
+  label {
+    color: #90a955;
+  }
+  input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #dad7cd;
+  }
+
+
+
+.resenas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 0.8rem;
+    list-style-type: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: arial;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+  } 
+  .resena {
+    border: 1px solid rgb(67, 67, 83);
+    border-radius: .5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .resena-detalle cite{
+    font-size: 75%;
+    color: #84a98c;
+    
+  }   
+
+  .resena-detalle h2 {
+ font-size: smaller;
+ color: #90a955;
+}
+
+
+.acercade {
+    display: flexbox;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  
+}
+
+.acercade a:link {
+    text-decoration: none;
+    color:#dad7cd ;
+}
+
+
+.pagefooter {
+    background-color: #3a5a40;
+    height: 150px;
+    
+}
+.barravert ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:#dad7cd ;
+}
+.barravert li {
+    list-style-type: none;
+    
+}
+.barravert {
+       clear: both; 
+}
+.barravert li a:link {
+    text-decoration: none;
+    color:#dad7cd ;
+  }
+  
+.barravert li a:visited {
+    text-decoration: none;
+  }
+  
+  .barravert li a:hover {
+    text-decoration: underline;
+  }
+  
+.barravert li a:active {
+    clear: both;
+    text-decoration: underline;
+  }
+  
