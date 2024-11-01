@@ -63,7 +63,7 @@ img {
   
   
 .encabezado {
-    background-image: url("/repositorio/android-chrome-512x512.png");
+    background-image: url("/imagenes/android-chrome-512x512.png");
     min-height: 80px;
     background-position: left;
     background-repeat: no-repeat;
@@ -101,6 +101,10 @@ img {
     padding: 0.5rem;
 }
 
+.producto:hover {
+   transform: translateY(-10px);
+  
+}
 .prod_detalle {
 	background: white;
 	margin-bottom: 2em;	
@@ -181,7 +185,9 @@ list-style-type: none;
 .contacto {
     margin-top: 30px;
     height: 500px;
+    color: white;
 }
+
 input[type=text], input[type=email],select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -216,6 +222,11 @@ input[type=text], input[type=email],select, textarea {
     flex-wrap: wrap;
    
   } 
+  @media (max-width: 768px) {
+  .resenas { grid-template-columns: 1fr;
+  }
+  }
+
   .resena {
     border: 1px solid rgb(67, 67, 83);
     border-radius: .5rem;
@@ -233,7 +244,9 @@ input[type=text], input[type=email],select, textarea {
  font-size: smaller;
  color: #90a955;
 }
-
+.resena:hover {
+  translate: -5px ;
+}
 
 .acercade {
     display: flexbox;
